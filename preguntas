@@ -1,0 +1,39 @@
+<DOCTYPEhtml >
+< html >
+< cabeza >
+    < juego de caracteres meta  = ' utf-8 ' >
+    < meta  http-equiv = ' X-UA-Compatible ' content =' IE=edge ' >
+    < título > novio </ título >
+     < meta  name =" viewport " content =" ancho=ancho-del-dispositivo, escala-inicial=1.0 " >
+    < estilo >
+        cuerpo {
+            color de fondo : azul;
+        }
+    </ estilo >
+    < guión >
+        function  accionParaCuandoEllaDigaQueSi ( ) {
+            alerta ( 'Felicidades ya somos novios <3' ) ;
+        }
+
+        function  mueveElBotón ( ) {
+            ancho  =  ventana . ancho interior ;
+            altura  =  ventana . alturainterna ;
+
+            newWidth  =  ( Math . random ( )  *  ancho ) ;
+            newHeight  =  ( Math . random ( )  *  height ) ;
+
+            documento _ getElementById ( 'btnNo' ) . estilo _ posición  =  "absoluto" ;
+            documento _ getElementById ( 'btnNo' ) . estilo _ izquierda  =  nuevoAncho  +  "px" ;
+            documento _ getElementById ( 'btnNo' ) . estilo _ arriba  =  alturanueva  +  "px" ;
+
+
+        }
+    </ guión >
+</ cabeza >
+< cuerpo >
+    < h3 > ¿Quieres ser mi novio? </ h3 >
+    < tipo de entrada  =" boton " onclick =" accionParaCuandoEllaDigaQueSi() " id =" btnSi " valor =" Si " />
+    < tipo de entrada  =" boton " id =" btnNo " onmouseover =" mueveElBoton() " valor =" No " />
+    < img  src =" chuec.png " ancho =" 200 " >
+</ cuerpo >
+</ html > 
